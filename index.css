@@ -6,15 +6,16 @@
 }
 
 body {
-  background: url(./media/zima_most.jpg) center / cover;
-  height: 100vh;
+    background: url(./media/zima_most.jpg) center / cover;
+    height: 100vh;
 }
 
 #player {
   display: flex;
   width: 55rem;
-  margin: 10rem auto;
+  margin: 0 auto;
   text-align: center;
+  padding-top: 20rem;
 }
 
 #video {
