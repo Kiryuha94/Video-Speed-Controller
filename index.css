@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background: url(./media/zima_most.jpg) center / cover;
+  height: 100vh;
+}
+
+#player {
+  display: flex;
+  width: 55rem;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+#video {
+  width: 50rem;
+}
+
+#progress {
+  outline: 3px solid rgb(0, 0, 0);
+  width: 4.5rem;
+  margin-left: 0.5rem;
+  overflow: hidden;
+  cursor: grab;
+}
+
+#progress-line {
+  height: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, rgb(31, 66, 142) 18%, rgb(250, 252, 249) 100%);
+}
