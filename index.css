@@ -12,14 +12,16 @@ body {
 
 #player {
   display: flex;
-  width: 55rem;
+  width: 100%;
+  max-width: 55rem;
   margin: 0 auto;
   text-align: center;
   padding-top: 20rem;
 }
 
 #video {
-  width: 50rem;
+  width: 100%;
+  max-width: 50rem;
 }
 
 #progress {
@@ -37,3 +39,18 @@ body {
   justify-content: center;
   background: linear-gradient(0deg, rgb(31, 66, 142) 18%, rgb(250, 252, 249) 100%);
 }
+
+@media screen and (max-width: 480px) {
+  #player {
+    display: flex;
+    flex-direction: column;
+  }
+  #progress {
+width: 10rem;
+height: 20rem;
+margin: 0 auto;
+margin-top: 1rem;
+  }
+}
+   
+
