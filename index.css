@@ -6,8 +6,8 @@
 }
 
 body {
-    background: url(./media/zima_most.jpg) center / cover;
-    height: 100vh;
+  background: url(./media/zima_most.jpg) center / cover;
+  height: 100vh;
 }
 
 #player {
@@ -45,12 +45,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+  
   #progress {
-width: 10rem;
-height: 20rem;
-margin: 0 auto;
-margin-top: 1rem;
+    width: 10rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-top: 1rem;
   }
 }
-   
-
