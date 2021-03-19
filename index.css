@@ -6,17 +6,17 @@
 }
 
 body {
-  background: url(./media/zima_most.jpg) center / cover;
+  background: url(./media/zima_most.jpg) no-repeat center / cover;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #player {
   display: flex;
   width: 100%;
   max-width: 55rem;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20rem;
 }
 
 #video {
@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   #progress {
     width: 10rem;
     height: 20rem;
